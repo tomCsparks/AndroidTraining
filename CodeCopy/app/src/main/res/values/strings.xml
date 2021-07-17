@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="seabuttonimage">seaButtonImage</string>
+    <string name="imageButtonSea">imageButtonSea</string>
+    <string name="imageButtonCoarse">imageButtonCoarse</string>
+    <string name="textViewSea">textViewSea</string>
+    <string name="SEA">SEA</string>
+    <string name="COARSE">COARSE</string>
+    <string name="newScreen">newScreen</string>
+    <string name="Sea">Sea</string>
+</resources>

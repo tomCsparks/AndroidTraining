@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.tom.FOF" >
+    package="com.tom.FOF">
 
     <application
+        android:name=".app.TomApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/Sea"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning" >
-        <activity android:name=".ActivityCoarseStartPage" >
-        </activity>
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".FishDetailActivity"></activity>
+        <activity android:name=".app.InputFieldTestDemo"></activity>
+        <activity android:name=".ActivitySplash" />
+        <activity android:name=".app.TestOnlyRecycle" />
+        <activity android:name=".ListOfData" />
+        <activity
+            android:name=".ActivityScrollSeaFishImages"
+            android:label="Species" />
+        <activity
+            android:name=".ActivityCoarseStartPage"
+            android:label="Coarse Fishing" />
         <activity
             android:name=".ActivitySeaStartPage"
             android:label="Sea Fishing" />
         <activity
-            android:name=".ActivitySplash"
+            android:name=".FishListActivity"
             android:label="Fish-o-Fax"
-            android:theme="@style/SplashTheme" >
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

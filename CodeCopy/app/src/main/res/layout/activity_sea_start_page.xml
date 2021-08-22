@@ -4,15 +4,311 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/seabackground"
     tools:context="com.tom.FOF.ActivitySeaStartPage">
 
     <TextView
-        android:id="@+id/seatextbox"
+        android:id="@+id/textViewKnots"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/SEA"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:text="Knots"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonKnots" />
+
+    <TextView
+        android:id="@+id/textViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="8dp"
+        android:text="Compass"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCompass" />
+
+    <TextView
+        android:id="@+id/textViewCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Cooking"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCooking" />
+
+    <TextView
+        android:id="@+id/textViewBait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="Bait"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonBait" />
+
+    <TextView
+        android:id="@+id/textViewTides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="Tides"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonTides" />
+
+    <TextView
+        android:id="@+id/textViewCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Camera"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonCamera" />
+
+    <TextView
+        android:id="@+id/textViewFaceBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="FaceBook"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonFaceBook" />
+
+    <TextView
+        android:id="@+id/textViewRecords"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Records"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewBait"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toEndOf="@+id/textViewSpecies"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonRecords" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBait"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baticon" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCooking"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCompass"
+        app:srcCompat="@drawable/cookfish" />
+
+    <ImageButton
+        android:id="@+id/imageButtonFaceBook"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCamera"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGlossary"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonFaceBook"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonCooking"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMarks"
+        app:srcCompat="@drawable/glossary" />
+
+    <ImageButton
+        android:id="@+id/imageButtonKnots"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSpecies"
+        app:srcCompat="@drawable/knots" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTackle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonTides"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonKnots"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRecords"
+        app:srcCompat="@drawable/tacklesea" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRecords"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonBait"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonSpecies"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/records" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTides"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBait"
+        app:srcCompat="@drawable/tides" />
+
+    <TextView
+        android:id="@+id/textViewTackle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tackle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewTides"
+        app:layout_constraintStart_toEndOf="@+id/textViewKnots"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonTackle" />
+
+    <TextView
+        android:id="@+id/textViewMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewCamera"
+        app:layout_constraintStart_toEndOf="@+id/textViewCompass"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLocation" />
+
+    <TextView
+        android:id="@+id/textViewGlossary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Glossary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewFaceBook"
+        app:layout_constraintStart_toEndOf="@+id/textViewCooking"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonGlossary" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="259dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logosea" />
+
+    <TextView
+        android:id="@+id/textViewSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="8dp"
+        android:text="Species"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonSpecies" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLocation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonCamera"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonCompass"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTackle"
+        app:srcCompat="@drawable/gps" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCamera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTides"
+        app:srcCompat="@drawable/camera" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCompass"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewKnots"
+        app:srcCompat="@drawable/compass" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSpecies"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/seafishcollage" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

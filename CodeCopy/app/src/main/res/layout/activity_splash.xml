@@ -9,4 +9,6 @@
     android:background="@drawable/seasplashscreen"
     android:visibility="visible"
     tools:context=".ActivitySplash"
-    tools:visibility="visible"/>
+    tools:visibility="visible">
+
+</androidx.constraintlayout.widget.ConstraintLayout>

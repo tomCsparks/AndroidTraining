@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbc119c9-d6db-4c2e-b828-c5e5805a732d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivityScrollSeaFishImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/DataAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/DataHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/FishAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/FishDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/FishListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ListOfData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/OnRecyclerViewClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/app/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/app/FishViewHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/app/InputFieldTestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/app/TestOnlyRecycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/app/TomApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/SeaBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/angler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/barbel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/bass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/batIcon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/bleak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/bream.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/breamcommon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/breamsilver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/bullhead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/bullhead_black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/burbot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/carp_common.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/carp_crucian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/carp_grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/carp_wild.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/chubb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/coarsebackground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/coarsefishcollage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/cod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/conger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/cookFish.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/dab.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/dace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/dogfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/dory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/dory_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/eel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/flounder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/fof_logo_coarse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/garfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/glossary.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/gps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/gudgeon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/gurnard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/haddock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/hake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/halibut.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/knots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/ling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/loach_spined.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/loach_stone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/logosea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/mackerel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/minnow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/monkfish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/mullet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/orfe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/perch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/pike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/plaice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/pollack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/pout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/pumpkinseed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/pumpkpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/records.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/roach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/rudd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/saithe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/seafishcollage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/shark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/skate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/smoothhound.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/spurdog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/stickleback3spine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/stickleback9spine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/tacklesea.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/tench.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/thornback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/tides.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/tope.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/torch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/turbot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/weather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/weever.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/wels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/whiting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/wrasse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/zander.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_fish_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_fish_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_input_field_test_demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_list_of_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_scroll_sea_fish_images.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_test_only_recycle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/item_fish.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/itemdata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/menu/menu_sea_scrolling_images.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivityCoarseStartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivityCoarseStartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivityHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivityHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivitySeaStartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/java/com/tom/FOF/ActivitySeaStartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/coarse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/drawable/sea.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_coarse_start_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_coarse_start_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_sea_start_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_sea_start_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeCopy/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wRCkykpdBrGLVGBiJFVMwvQvFd" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbc119c9-d6db-4c2e-b828-c5e5805a732d" name="Default Changelist" comment="" />
+      <created>1628412161804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628412161804</updated>
+    </task>
+    <servers />
+  </component>
+</project>

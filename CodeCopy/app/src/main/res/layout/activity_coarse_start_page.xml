@@ -5,15 +5,302 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/coarsebackground"
     tools:context="com.tom.FOF.ActivityCoarseStartPage">
 
   <TextView
-      android:id="@+id/coarsetextbox"
+      android:id="@+id/textViewFaceBookCoarse"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="@string/COARSE"
-      app:layout_constraintBottom_toBottomOf="parent"
+      android:layout_marginEnd="30dp"
+      android:layout_marginRight="30dp"
+      android:text="FaceBook"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonFaceBookCoarse" />
+
+    <TextView
+      android:id="@+id/textViewGlossaryCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Glossary"
+      android:textSize="20sp"
+      android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonGlossaryCoarse" />
+
+  <ImageButton
+      android:id="@+id/imageButtonFaceBookCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewCameraCoarse"
+      app:srcCompat="@drawable/facebook" />
+
+  <ImageButton
+      android:id="@+id/imageButtonGlossaryCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toStartOf="@+id/imageButtonFaceBookCoarse"
+      app:layout_constraintStart_toEndOf="@+id/imageButtonTorchCoarse"
+      app:layout_constraintTop_toBottomOf="@+id/textViewCompassCoarse"
+      app:srcCompat="@drawable/glossary" />
+
+  <TextView
+      android:id="@+id/textViewTorchCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginLeft="40dp"
+      android:text="Torch"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonTorchCoarse" />
+
+  <ImageButton
+      android:id="@+id/imageButtonTorchCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="fitCenter"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewSitesCoarse"
+      app:srcCompat="@drawable/torch" />
+
+  <TextView
+      android:id="@+id/textViewCameraCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="62dp"
+      android:layout_marginLeft="62dp"
+      android:layout_marginEnd="31dp"
+      android:layout_marginRight="31dp"
+      android:text="Camera"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/textViewCompassCoarse"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonCameraCoarse" />
+
+  <TextView
+      android:id="@+id/textViewCompassCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="27dp"
+      android:text="Compass"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonCompassCoarse" />
+
+  <TextView
+      android:id="@+id/textViewSitesCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="45dp"
+      android:layout_marginLeft="45dp"
+      android:text="Sites"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonLocation2" />
+
+  <ImageButton
+      android:id="@+id/imageButtonCameraCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewWeather"
+      app:srcCompat="@drawable/camera" />
+
+  <ImageButton
+      android:id="@+id/imageButtonLocation2"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="centerInside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewKnotsCoarse"
+      app:srcCompat="@drawable/gps" />
+
+  <ImageButton
+      android:id="@+id/imageButtonCompassCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toStartOf="@+id/imageButtonCameraCoarse"
+      app:layout_constraintStart_toEndOf="@+id/imageButtonLocation2"
+      app:layout_constraintTop_toBottomOf="@+id/textViewTackleCoarse"
+      app:srcCompat="@drawable/compass" />
+
+  <TextView
+      android:id="@+id/textViewWeather"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="32dp"
+      android:layout_marginRight="32dp"
+      android:text="Weather"
+      android:textColor="#FDFCFC"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonWeather" />
+
+  <TextView
+      android:id="@+id/textViewTackleCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Tackle"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonTackleCoarse" />
+
+  <TextView
+      android:id="@+id/textViewKnotsCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="46dp"
+      android:layout_marginLeft="46dp"
+      android:text="Knots"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonKnotsCoarse" />
+
+  <ImageButton
+      android:id="@+id/imageButtonTackleCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toStartOf="@+id/imageButtonWeather"
+      app:layout_constraintStart_toEndOf="@+id/imageButtonKnotsCoarse"
+      app:layout_constraintTop_toBottomOf="@+id/textViewRecordsCoarse"
+      app:srcCompat="@drawable/tacklesea" />
+
+  <ImageButton
+      android:id="@+id/imageButtonKnotsCoarse"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="10dp"
+      android:scaleType="centerInside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewSpeciesCoarse"
+      app:srcCompat="@drawable/knots" />
+
+  <TextView
+      android:id="@+id/textViewBaitCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="50dp"
+      android:layout_marginRight="50dp"
+      android:text="Bait"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonBaitCoarse" />
+
+  <TextView
+      android:id="@+id/textViewRecordsCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Records"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonRecordsCoarse" />
+
+  <ImageButton
+      android:id="@+id/imageButtonBaitCoarse"
+      android:layout_width="100dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="80dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/baticon" />
+
+    <ImageButton
+      android:id="@+id/imageButtonRecordsCoarse"
+      android:layout_width="100dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="80dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/records" />
+
+  <TextView
+      android:id="@+id/textViewSpeciesCoarse"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="35dp"
+      android:layout_marginLeft="35dp"
+      android:text="Species"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageButtonSpeciesCoarse" />
+
+  <ImageButton
+      android:id="@+id/imageButtonSpeciesCoarse"
+      android:layout_width="100dp"
+      android:layout_height="80dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="80dp"
+      android:scaleType="centerInside"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/coarsefishcollage" />
+
+  <ImageView
+      android:id="@+id/imageViewLogoCoarse"
+      android:layout_width="259dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="16dp"
+      android:scaleType="centerInside"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/logosea" />
+
+  <ImageButton
+      android:id="@+id/imageButtonWeather"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      android:scaleType="centerCrop"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textViewBaitCoarse"
+      app:srcCompat="@drawable/weather" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
